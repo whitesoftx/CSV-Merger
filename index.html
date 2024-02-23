@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSV File Merger</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="pic.png" type="image/png" />
+  </head>
+  <body>
+    <img src="csv.png" alt="logo" />
+    <br />
+    <h1>CSV File Merger</h1>
+    <br />
+    <div class="upload-btn-wrapper">
+      <button class="btn">Upload Files</button>
+      <input type="file" id="fileInput" multiple />
+    </div>
+    <br />
+    <div id="fileCountMessage"></div>
+
+    <button id="mergeBtn" onclick="mergeFiles()">Merge & Download</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
+    <footer>
+      © <span id="currentYear"></span> - Built with 🧡 by
+      <a href="https://olawhite.com" target="_blank">Ola White</a>
+    </footer>
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
