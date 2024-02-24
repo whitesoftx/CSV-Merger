@@ -18,6 +18,9 @@ function handleFileSelect(event) {
 
 function updateFileCountMessage(count) {
   const messageElement = document.getElementById("fileCountMessage");
+  messageElement.style.fontSize = "18px";
+  messageElement.style.color = "#d43535";
+  messageElement.style.fontWeight = "bold";
   messageElement.textContent = `You have added '${count}' CSV files to be merged`;
 }
 

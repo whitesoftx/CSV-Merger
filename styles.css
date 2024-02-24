@@ -5,6 +5,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #f0f0f0;
   height: 100vh;
   margin: 0;
 }
@@ -13,24 +14,28 @@ body {
   display: none;
 }
 
+h2 {
+  color: #ad1847;
+}
+/* Upload button styles */
 .upload-btn-wrapper {
   position: relative;
   overflow: hidden;
   display: inline-block;
+  margin: 2rem;
+  cursor: pointer;
 }
 
 .btn {
-  border: 2px solid rgb(20, 85, 205);
-  background-color: rgb(20, 85, 205);
-  color: #fff;
-  padding: 10px 30px;
-  border-radius: 50px;
-  font-size: 1.1rem;
-}
-
-.btn:hover {
-  background-color: black;
-  border: 2px solid rgb(20, 85, 205);
+  border: 1px dashed #ad1847;
+  color: gray;
+  background-color: white;
+  padding: 20px; /* Set padding to increase button size */
+  border-radius: 10px; /* Set border-radius for rounded corners */
+  width: 250px; /* Set width */
+  height: 200px; /* Set height */
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -41,7 +46,6 @@ body {
   top: 0;
   opacity: 0;
 }
-
 #mergeBtn {
   margin-top: 20px;
   border: 2px solid #ad1847;
@@ -63,9 +67,9 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: #e0e1ebfb;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 footer a {
