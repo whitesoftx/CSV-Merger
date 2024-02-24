@@ -1,3 +1,15 @@
+/* 
+  Author: Ola White
+
+  Description: Hello there! This is my JavaScript file. I appreciate your visit to my code base. Follow me on my pages:
+
+  Portfolio:   https://www.olawhite.com/
+  Github:      https://github.com/whitesoftx
+  Twitter:     https://twitter.com/olawhite
+  
+  Keep coding and exploring!
+*/
+
 // Initialize an array to store the content of each uploaded file
 let filesContent = [];
 
